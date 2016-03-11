@@ -1,0 +1,86 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300);
+/* line 23, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+* {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* line 29, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+body, body * {
+  margin: 0;
+}
+
+/* line 33, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+body {
+  background: #2f2f2f;
+}
+
+/* line 37, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#head {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  padding: 16px;
+  box-shadow: 0 0 1px 0 #000;
+}
+/* line 45, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#head * {
+  color: #23CF5F;
+  font-weight: 600;
+}
+
+/* line 51, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp {
+  display: inline-block;
+}
+/* line 53, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp img {
+  width: 60%;
+  float: left;
+}
+/* line 57, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp img {
+  padding: 16px;
+}
+/* line 60, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp h2, #disp h6 {
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* line 66, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player {
+  box-shadow: 2px #000;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: #2f2f2f;
+  box-shadow: 0 0 1px 0 #000;
+}
+/* line 73, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player * {
+  display: inline-block;
+}
+/* line 76, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player #time {
+  background: #fff;
+  width: 100%;
+}

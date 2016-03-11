@@ -1,0 +1,48 @@
+// Place all the styles related to the apps controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ $green: #23CF5F;
+
+$dark: #2f2f2f;
+$dark_shadow: #000;
+
+$light: #fff;
+$light_shadow: #D0D0D0;
+
+$bg: $dark;
+$fg: $light;
+$shadow: $dark_shadow;
+
+#disp {
+	width: calc(100% - 126px);
+}
+
+#app {
+	width: calc(100% - 20px);
+	margin-left: 10px;
+	div {
+		display: inline-block;
+		width: 100%;
+		border-top: 0;
+		h5, h6 {
+			padding: 16px;
+			margin-left: 86px;
+		}
+		img {
+			margin-top: 6px;
+			margin-left: 60px;
+			width: 60px;
+			margin: 10px;
+			height: 68px;
+			margin-top: 13px;
+			padding: 0;
+			padding-left: 10px;
+		}
+		.price {
+			color: $green;
+			float: right;
+			margin-top: -50px;
+		}
+	}	
+}

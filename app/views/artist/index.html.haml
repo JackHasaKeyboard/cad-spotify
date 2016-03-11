@@ -1,0 +1,44 @@
+= render 'layouts/head'
+= render 'layouts/side'
+
+#disp
+	.head
+		#banner
+		=# image_tag "DOOM.png"
+		-#%h3 MF DOOM
+		-#%span MF DOOM
+	=# image_tag "DOOM.png"
+	%h3 MF DOOM
+
+	.list
+		.select
+			%h5.green Albums
+			%h5 Singles
+			%h5.option Popularity
+		.album
+			= image_tag "album/mm-food.png"
+			%h6 Mm.. Food
+		.album
+			= image_tag "album/madvillainy.png"
+			%h6 Madvillainy
+		.album
+			= image_tag "album/born-like-this.png"
+			%h6 Born Like This
+		.album
+			= image_tag "album/operation-doomsday.png"
+			%h6 Operation Doomsday
+
+	.list
+		.select
+			%h5 Appears on
+		.album
+			= image_tag "album/nehruviandoom.png"
+			%h6 Mm.. Food
+		.album
+			= image_tag "album/take-me-to-your-leader.png"
+			%h6 Madvillainy
+		.album
+			= image_tag "album/the-mouse-and-the-mask.png"
+			%h6 Born Like This
+
+= render 'layouts/player'

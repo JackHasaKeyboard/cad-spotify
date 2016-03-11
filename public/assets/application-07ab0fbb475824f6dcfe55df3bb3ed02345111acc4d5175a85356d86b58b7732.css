@@ -1,0 +1,549 @@
+/* line 16, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/app.scss */
+#app div {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+/* line 19, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/app.scss */
+#app div img {
+  display: inline-block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/* line 34, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+* {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* line 40, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 44, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+body, body * {
+  margin: 0;
+}
+
+/* line 48, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+body {
+  background: #2f2f2f;
+}
+
+/* line 52, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* line 57, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+.green, .green * {
+  color: #23CF5F;
+}
+
+/* line 61, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#head {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  padding: 16px;
+  box-shadow: 0 0 1px 0 #000;
+  height: 24px;
+  z-index: 10000;
+}
+/* line 71, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#head * {
+  display: inline-block;
+  color: #23CF5F;
+  font-weight: 600;
+}
+/* line 76, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#head img {
+  height: 26px;
+}
+/* line 79, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#head #title {
+  font-size: 16px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+/* line 85, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#head #acct {
+  float: right;
+  font-size: 10px;
+  margin: 6px;
+}
+
+/* line 92, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp {
+  display: inline-block;
+}
+/* line 94, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp #track {
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: -6px;
+}
+/* line 99, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp img {
+  width: 60%;
+  float: left;
+}
+/* line 103, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp img {
+  padding: 16px;
+}
+/* line 106, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp h2 {
+  font-weight: 500;
+}
+/* line 109, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#disp h2, #disp h6 {
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* line 115, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: #2f2f2f;
+  box-shadow: 0 0 1px 0 #000;
+}
+/* line 121, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player * {
+  display: inline-block;
+}
+/* line 124, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player h6 {
+  padding: 6px;
+}
+/* line 127, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player span {
+  background: #fff;
+  height: 4px;
+  margin-bottom: 2px;
+}
+/* line 132, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player #time {
+  border-radius: 2px;
+  width: calc(100% - 78px);
+  /* 218 = no genius bar */
+}
+/* line 136, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player #vol {
+  width: 60px;
+  background: #23CF5F;
+}
+/* line 140, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#player #current {
+  background: #23CF5F;
+  position: absolute;
+  left: 37px;
+  top: 11px;
+  width: calc(100% - 80% - 78px);
+  border-radius: 2px 0 0 2px;
+}
+
+/* line 150, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#acct-info {
+  position: absolute;
+  right: 0;
+  background: #2f2f2f;
+  margin-top: 1px;
+  box-shadow: 2px #000;
+  padding: 10px;
+}
+/* line 157, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#acct-info * {
+  padding: 10px;
+}
+
+/* line 162, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side {
+  display: inline-block;
+  width: 104px;
+  padding: 10px;
+  height: calc(100% - 76px);
+  background: #2f2f2f;
+  border-right: 1px solid #000;
+  z-index: 0;
+  margin-top: 1px;
+  /* img */
+}
+/* line 171, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side * {
+  padding: 10px;
+}
+/* line 174, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side h5 {
+  font-weight: bold;
+}
+/* line 177, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side h6 {
+  border-bottom: 1px solid #000;
+}
+/* line 180, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side .player {
+  padding: 0;
+  margin: 0;
+  float: left;
+  position: absolute;
+  bottom: 36px;
+}
+/* line 186, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side .player h6 {
+  border: 0;
+  padding: 2px;
+  margin-left: 6px;
+}
+/* line 192, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side .mar {
+  margin-top: 10px;
+}
+/* line 197, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side img {
+  width: 92px;
+  margin-left: 6px;
+  padding-top: 16px;
+  padding-bottom: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  bottom: 40px;
+}
+/* line 206, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side .cat {
+  padding: 0;
+  border-bottom: 1px solid #000;
+}
+/* line 209, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side .cat * {
+  display: inline-block;
+}
+/* line 212, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+#side .cat img {
+  margin-bottom: -12px;
+  margin-left: -16px;
+}
+
+/* line 219, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+.cont {
+  width: calc(100% - 145px);
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* line 226, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+.right {
+  float: right;
+}
+
+/* line 231, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+.user-banner #prof-pic {
+  height: 60px;
+  border-radius: 30px;
+}
+/* line 235, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+.user-banner h5 {
+  display: inline-block;
+}
+
+/* line 240, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/application.scss */
+.head {
+  border-bottom: 1px solid #000;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* line 17, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/apps.scss */
+#disp {
+  width: calc(100% - 126px);
+}
+
+/* line 21, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/apps.scss */
+#app {
+  width: calc(100% - 20px);
+  margin-left: 10px;
+}
+/* line 24, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/apps.scss */
+#app div {
+  display: inline-block;
+  width: 100%;
+  border-top: 0;
+}
+/* line 28, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/apps.scss */
+#app div h5, #app div h6 {
+  padding: 16px;
+  margin-left: 86px;
+}
+/* line 32, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/apps.scss */
+#app div img {
+  margin-top: 6px;
+  margin-left: 60px;
+  width: 60px;
+  margin: 10px;
+  height: 68px;
+  margin-top: 13px;
+  padding: 0;
+  padding-left: 10px;
+}
+/* line 42, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/apps.scss */
+#app div .price {
+  color: #23CF5F;
+  float: right;
+  margin-top: -50px;
+}
+/* line 17, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+h1, h3 {
+  padding: 16px;
+}
+
+/* line 21, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+h1 {
+  font-weight: 500;
+}
+
+/* line 25, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.list {
+  display: inline-block;
+  width: 100%;
+  margin: 16px;
+}
+/* line 29, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.list h3 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 33, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.list .album {
+  display: inline-block;
+  float: left;
+  margin: 16px;
+}
+/* line 37, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.list .album img {
+  height: 160px;
+}
+/* line 40, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.list .album h6 {
+  text-align: center;
+  padding: 6px;
+  box-shadow: 0 0 1px 0 #000;
+  background: #2f2f2f;
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -6px;
+  width: 160px;
+}
+
+/* line 53, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.playlist {
+  display: inline-block;
+  padding: 6px;
+  box-shadow: 0 0 1px 0 #2f2f2f;
+  width: 160px;
+}
+/* line 58, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.playlist * {
+  padding: 6px;
+}
+
+/* line 63, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.head {
+  height: 74px;
+  margin-bottom: 50px;
+}
+/* line 66, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.head img {
+  height: 100px;
+  margin-top: -50px;
+}
+/* line 70, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/artist.scss */
+.head h1 {
+  margin-left: 100px;
+}
+/* line 17, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/music.scss */
+#sub {
+  margin-top: 10px;
+}
+/* line 19, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/music.scss */
+#sub h5 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* line 25, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/music.scss */
+table {
+  width: 100%;
+}
+/* line 27, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/music.scss */
+table tr {
+  border-bottom: 1px solid #000;
+}
+
+/* line 33, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/music.scss */
+#songs h6 {
+  display: inline-block;
+  padding: 10px;
+}
+/* line 17, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/mv.scss */
+#disp-video {
+  margin: 16px;
+}
+/* line 19, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/mv.scss */
+#disp-video img {
+  display: inline-block;
+  height: 260px;
+}
+
+/* line 26, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/mv.scss */
+#lyric span {
+  display: block;
+}
+/* line 17, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/playlists.scss */
+.head-album {
+  padding-bottom: 10px;
+  display: inline-block;
+  padding: 16px;
+}
+/* line 21, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/playlists.scss */
+.head-album h3, .head-album h5 {
+  padding: 0;
+  font-weight: normal;
+}
+/* line 25, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/playlists.scss */
+.head-album img, .head-album .attr {
+  float: left;
+  height: 160px;
+}
+/* line 29, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/playlists.scss */
+.head-album .attr {
+  margin-left: 10px;
+}
+/* line 31, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/playlists.scss */
+.head-album .attr * {
+  margin-bottom: 10px;
+}
+/* line 17, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg.scss */
+#art-disp {
+  display: inline-block;
+}
+/* line 19, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg.scss */
+#art-disp img {
+  margin: 16px;
+}
+
+/* line 24, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg.scss */
+#lyric {
+  padding-left: 16px;
+  padding-right: 16px;
+  float: right;
+  border-left: 1px solid #000;
+  height: calc(100% - 80px);
+}
+/* line 30, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg.scss */
+#lyric img {
+  height: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+/* line 35, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg.scss */
+#lyric h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 39, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg.scss */
+#lyric span {
+  font-size: 12px;
+}
+/* line 42, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg.scss */
+#lyric .verse {
+  margin-bottom: 20px;
+}
+/* line 5, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg_tracks.scss */
+.cont {
+  width: calc(100% - 504px);
+  float: left;
+  margin-top: 0;
+}
+/* line 9, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg_tracks.scss */
+.cont table {
+  margin-left: 10px;
+  width: calc(100% - 10px);
+}
+
+/* line 15, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg_tracks.scss */
+#side {
+  float: left;
+}
+
+/* line 19, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/rg_tracks.scss */
+td {
+  width: 33%;
+}
+/* line 17, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/settings.scss */
+h5 {
+  font-weight: bold;
+}
+
+/* line 21, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/settings.scss */
+.sub {
+  padding: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+/* line 28, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/settings.scss */
+#settings div {
+  display: inline-block;
+  margin: 16px;
+}
+/* line 31, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/settings.scss */
+#settings div h6 {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 36, /Users/Jack/RoR/CaD/spot/app/assets/stylesheets/settings.scss */
+#settings div img {
+  width: 60px;
+  padding: 10px;
+  box-shadow: 0 0 1px #000;
+  height: 60px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */

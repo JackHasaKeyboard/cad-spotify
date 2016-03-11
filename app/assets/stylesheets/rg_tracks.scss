@@ -1,0 +1,21 @@
+// Place all the styles related to the rg-tracks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.cont {
+	width: calc(100% - 504px);
+	float: left;
+	margin-top: 0;
+	table {
+		margin-left: 10px;
+		width: calc(100% - 10px);
+	}
+}
+
+#side {
+	float: left;
+}
+
+td {
+	width: 33%;
+}

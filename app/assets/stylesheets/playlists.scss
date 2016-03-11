@@ -1,0 +1,35 @@
+// Place all the styles related to the playlists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$green: #23CF5F;
+
+$dark: #2f2f2f;
+$dark_shadow: #000;
+
+$light: #fff;
+$light_shadow: #D0D0D0;
+
+$bg: $dark;
+$fg: $light;
+$shadow: $dark_shadow;
+
+.head-album {
+	padding-bottom: 10px;
+	display: inline-block;
+	padding: 16px;
+	h3, h5 {
+		padding: 0;
+		font-weight: normal;
+	}
+	img, .attr {
+		float: left;
+		height: 160px;
+	}
+	.attr {
+		margin-left: 10px;
+		* {
+			margin-bottom: 10px;
+		}
+	}
+}

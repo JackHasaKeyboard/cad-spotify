@@ -1,0 +1,2 @@
+class RgTracksController < ApplicationController
+end

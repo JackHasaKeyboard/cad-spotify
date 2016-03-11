@@ -1,0 +1,47 @@
+= render 'layouts/head'
+
+= render 'layouts/side'
+
+.cont
+	.head-album
+		= image_tag("album1.png")
+		.attr
+			%h3 Hip-Hop Essentals
+			%h5 Anthony Fantano
+			%h5 43 songs
+	#sub
+		%table{cellspacing: "0"}
+			%tbody
+				%tr
+					%td
+						%h5 Song
+					%td
+						%h5 Album
+					%td
+						%h5 Artist
+
+	%table#songs{cellspacing: "0"}
+		%tbody
+			%tr
+				%td
+					%h6.green Rhinestone Cowboy
+				%td
+					%h6 Madvillain
+				%td
+					%h6 Madvillainy
+			%tr
+				%td
+					%h6 Accordion
+				%td
+					%h6 Madvillainy
+				%td
+					%h6 Madvillain
+			%tr
+				%td
+					%h6 Meat Grinder
+				%td
+					%h6 Madvillainy
+				%td
+					%h6 Madvillain
+
+= render 'layouts/player'

@@ -1,0 +1,24 @@
+= render 'layouts/head'
+
+= render 'layouts/side'
+
+#disp
+	%h3.head Apps
+	#app
+		%div
+			= image_tag("logo-genius.svg")
+			%h5 Genius Bar
+			-#%h5.price $0.99
+			%h6 Lyrics and community-run annotations
+		%div
+			= image_tag("logo-pitchfork-white.svg")
+			%h5 Pitchfork Best New Music
+			-#%h5.price $0.99
+			%h6 Generates a playlist of recent Pitchfork reviews rated 8.5 and up
+		%div
+			= image_tag("logo-vevo-white.svg")
+			%h5 VEVO
+			-#%h5.price $0.99
+			%h6 All the hottest music videos
+	
+= render 'layouts/player'
