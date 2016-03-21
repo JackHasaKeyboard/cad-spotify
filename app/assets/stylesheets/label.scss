@@ -1,0 +1,46 @@
+// Place all the styles related to the label controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#banner {
+	padding-bottom: 160px;
+	background: url(asset-path("silkscreen.svg")),
+	url(asset-path("crowd-hands.png"));
+	width: 100%;
+	background-position: 0 0;
+	background-size: 4px 4px, 100%;
+	background-repeat: repeat, no-repeat;
+	filter: grayscale(1);
+	img {
+		position: absolute;
+		left: calc(50% - 30px);
+		margin-top: 30px;
+	}
+}
+
+.head {
+	height: 170px;
+	h4 {
+		margin-top: 10px;
+		padding: 16px;
+	}
+}
+
+.artist {
+	div {
+		text-align: center;
+		width: 120px;
+		display: inline-block;
+		float: left;
+		padding: 10px;
+		margin: 10px;
+		img {
+			border-radius: 50%;
+		}
+	}
+}
+
+.select {
+	width: calc(100% - 30px);
+	margin-left: 10px;
+}

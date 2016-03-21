@@ -1,0 +1,39 @@
+= render 'layouts/head'
+
+= render 'layouts/side'
+
+#disp
+	.head
+		#banner
+			= image_tag "logo/stones-throw.svg"
+
+		%h4 Stone's Throw Records ©
+
+	.select
+		%h5.green Artists
+		%h5 Albums
+		%h5.option Popularity
+
+	.artist
+		%div
+			= image_tag "artist/madlib.png", id: "prof-pic"
+			%h5 Madlib
+
+		%div
+			= image_tag "artist/peanut-butter-wolf.png", id: "prof-pic"
+			%h5 Peanut Butter Wolf
+
+		%div
+			= image_tag "artist/dam-funk.png", id: "prof-pic"
+			%h5 Dâm-Funk
+
+		%div
+			= image_tag "DOOM.png", id: "prof-pic"
+			%h5 MF DOOM
+
+		%div
+			= image_tag "artist/knxwledge.png", id: "prof-pic"
+			%h5 Knxwledge
+
+
+= render 'layouts/player'

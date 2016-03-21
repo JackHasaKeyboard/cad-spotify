@@ -1,13 +1,25 @@
 = render 'layouts/head'
 = render 'layouts/side'
 
-.cont
-	.user-banner
-		= image_tag('Apple.png', id: 'prof-pic')
-		%h5 Boards of Canada
+#disp
+	.head
+		#banner
+		=# image_tag "DOOM.png"
+		-#%h3 MF DOOM
+		-#%span MF DOOM
+		= image_tag "kkb-headshot.png", id: "prof-pic"
+	%h3 Kero Kero Bonito
 
-		%h3 All Songs
-
-
+	.list
+		.select
+			%h5.green Albums
+			%h5 Singles
+			%h5.option Popularity
+		.album
+			= image_tag "album/bonito-recycling.png"
+			%h6 Bonito Recycling
+		.album
+			= image_tag "album/intro-bonito.png"
+			%h6 Intro Bonito
 
 = render 'layouts/player'
